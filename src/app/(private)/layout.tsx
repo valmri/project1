@@ -1,8 +1,7 @@
 const LayoutPrivate = ({ children }: { children: React.ReactNode }) => {
   return (
     <div>
-      <h1>Private Layout</h1>
-      {children}
+      <div className="container lg:w-xl px-5 py-2 mx-auto"> {children}</div>
     </div>
   );
 };
